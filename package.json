@@ -7,11 +7,13 @@
     "watch": "tsc -w",
     "prestart": "npm run build",
     "start": "func start",
-    "test": "echo \"No tests yet...\""
+    "test": "echo \"No tests yet...\"",
+    "dev": "concurrently \"npm run watch\" \"func start\""
   },
   "dependencies": {},
   "devDependencies": {
     "@azure/functions": "^1.0.2-beta2",
+    "concurrently": "^5.1.0",
     "typescript": "^3.3.3"
   }
 }

@@ -1,0 +1,196 @@
+{
+	"invocationId": "601fdc5d-b7d0-4e22-9646-93854b718afd",
+	"traceContext": {
+		"traceparent": "",
+		"tracestate": "",
+		"attributes": {}
+	},
+	"executionContext": {
+		"invocationId": "601fdc5d-b7d0-4e22-9646-93854b718afd",
+		"functionName": "entry",
+		"functionDirectory": "/Users/cliff/git/azure-serverless-express/entry"
+	},
+	"bindings": {
+		"req": {
+			"method": "GET",
+			"url": "http://localhost:7071/api/entry",
+			"originalUrl": "http://localhost:7071/api/entry",
+			"headers": {
+				"cache-control": "max-age=0",
+				"connection": "keep-alive",
+				"accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+				"accept-encoding": "gzip, deflate, br",
+				"accept-language": "en-US,en;q=0.9,la;q=0.8",
+				"host": "localhost:7071",
+				"user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36",
+				"dnt": "1",
+				"upgrade-insecure-requests": "1",
+				"sec-fetch-user": "?1",
+				"sec-fetch-site": "none",
+				"sec-fetch-mode": "navigate"
+			},
+			"query": {},
+			"params": {}
+		}
+	},
+	"bindingData": {
+		"invocationId": "601fdc5d-b7d0-4e22-9646-93854b718afd",
+		"query": {},
+		"headers": {
+			"cache-Control": "max-age=0",
+			"connection": "keep-alive",
+			"accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+			"accept-Encoding": "gzip, deflate, br",
+			"accept-Language": "en-US,en;q=0.9,la;q=0.8",
+			"host": "localhost:7071",
+			"user-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36",
+			"dNT": "1",
+			"upgrade-Insecure-Requests": "1",
+			"sec-Fetch-User": "?1",
+			"sec-Fetch-Site": "none",
+			"sec-Fetch-Mode": "navigate"
+		},
+		"sys": {
+			"methodName": "entry",
+			"utcNow": "2020-02-02T06:46:23.828615Z",
+			"randGuid": "a44390cf-b620-4af2-8cc0-a355a09d25a1"
+		},
+		"req": {
+			"http": {
+				"identities": [
+					{
+						"claims": [
+							{
+								"value": "Admin",
+								"type": "http://schemas.microsoft.com/2017/07/functions/claims/authlevel"
+							}
+						],
+						"authenticationType": {
+							"value": "WebJobsAuthLevel",
+							"string": "value"
+						},
+						"nameClaimType": {
+							"value": "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name",
+							"string": "value"
+						},
+						"roleClaimType": {
+							"value": "http://schemas.microsoft.com/ws/2008/06/identity/claims/role",
+							"string": "value"
+						}
+					}
+				],
+				"cookies": [],
+				"headers": {
+					"cache-control": "max-age=0",
+					"connection": "keep-alive",
+					"accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+					"accept-encoding": "gzip, deflate, br",
+					"accept-language": "en-US,en;q=0.9,la;q=0.8",
+					"host": "localhost:7071",
+					"user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36",
+					"dnt": "1",
+					"upgrade-insecure-requests": "1",
+					"sec-fetch-user": "?1",
+					"sec-fetch-site": "none",
+					"sec-fetch-mode": "navigate"
+				},
+				"params": {},
+				"query": {},
+				"method": "GET",
+				"url": "http://localhost:7071/api/entry",
+				"body": null,
+				"statusCode": "",
+				"enableContentNegotiation": false,
+				"rawBody": null
+			},
+			"data": "http"
+		},
+		"$request": {
+			"http": {
+				"identities": [
+					{
+						"claims": [
+							{
+								"value": "Admin",
+								"type": "http://schemas.microsoft.com/2017/07/functions/claims/authlevel"
+							}
+						],
+						"authenticationType": {
+							"value": "WebJobsAuthLevel",
+							"string": "value"
+						},
+						"nameClaimType": {
+							"value": "http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name",
+							"string": "value"
+						},
+						"roleClaimType": {
+							"value": "http://schemas.microsoft.com/ws/2008/06/identity/claims/role",
+							"string": "value"
+						}
+					}
+				],
+				"cookies": [],
+				"headers": {
+					"cache-control": "max-age=0",
+					"connection": "keep-alive",
+					"accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+					"accept-encoding": "gzip, deflate, br",
+					"accept-language": "en-US,en;q=0.9,la;q=0.8",
+					"host": "localhost:7071",
+					"user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36",
+					"dnt": "1",
+					"upgrade-insecure-requests": "1",
+					"sec-fetch-user": "?1",
+					"sec-fetch-site": "none",
+					"sec-fetch-mode": "navigate"
+				},
+				"params": {},
+				"query": {},
+				"method": "GET",
+				"url": "http://localhost:7071/api/entry",
+				"body": null,
+				"statusCode": "",
+				"enableContentNegotiation": false,
+				"rawBody": null
+			},
+			"data": "http"
+		}
+	},
+	"bindingDefinitions": [
+		{
+			"name": "req",
+			"type": "httpTrigger",
+			"direction": "in"
+		},
+		{
+			"name": "res",
+			"type": "http",
+			"direction": "out"
+		}
+	],
+	"req": {
+		"method": "GET",
+		"url": "http://localhost:7071/api/entry",
+		"originalUrl": "http://localhost:7071/api/entry",
+		"headers": {
+			"cache-control": "max-age=0",
+			"connection": "keep-alive",
+			"accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+			"accept-encoding": "gzip, deflate, br",
+			"accept-language": "en-US,en;q=0.9,la;q=0.8",
+			"host": "localhost:7071",
+			"user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36",
+			"dnt": "1",
+			"upgrade-insecure-requests": "1",
+			"sec-fetch-user": "?1",
+			"sec-fetch-site": "none",
+			"sec-fetch-mode": "navigate"
+		},
+		"query": {},
+		"params": {}
+	},
+	"res": {
+		"headers": {},
+		"cookies": []
+	}
+}

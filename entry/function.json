@@ -16,5 +16,5 @@
       "name": "res"
     }
   ],
-  "scriptFile": "../dist/express-entry/index.js"
+  "scriptFile": "../dist/entry/index.js"
 }
